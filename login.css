@@ -1,0 +1,44 @@
+body{
+    background-image:url("top-view-desk-with-black-friday-gifts.jpg");
+    background-size:cover;
+
+}
+#container{
+    display:flex;
+    flex-direction:row;
+    height:110px;
+    width:1275px;
+    }
+    #image{
+       border:2px solid black;
+       width:100px;
+    }
+    #text{
+        font-size:100px;
+        font-family:'Brush Script MT';
+        color:black;
+        width:1160px;
+        background-color:orange;
+        text-transform:capitalize;
+        border:2px solid black;
+    }
+    #area{
+        text-align:center;
+        font-size:20px;
+        backdrop-filter:blur(20px);
+    color:black;
+    border:2px solid gray;
+    border-radius:10%;
+    width:400px;
+    height:450px;
+    background-color:transparent;
+    margin-left:370px;
+    margin-top:100px;
+    }
+    input{
+       width:80%;
+       height:7%;
+       border:none;
+       outline:none;
+       border-radius:40px;
+    }

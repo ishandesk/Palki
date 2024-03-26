@@ -1,0 +1,93 @@
+body{
+    background-image:url("woman-holding-various-shopping-bags-copy-space.jpg");
+    background-size:cover;
+
+}
+
+h2{
+    font-family:'Times New Roman';
+    font-size:20px;
+    color:white;
+}
+#container{
+display:flex;
+flex-direction:row;
+height:110px;
+width:1275px;
+}
+#image{
+   border:2px solid black;
+   width:100px;
+}
+#text{
+    font-size:100px;
+    font-family:'Brush Script MT';
+    color:black;
+    width:1160px;
+    background-color:orange;
+    text-transform:capitalize;
+    border:2px solid black;
+}
+#area{
+    text-align:center;
+    font-size:20px;
+color:white;
+border:2px solid grey;
+border-radius: 10%;
+width:450px;
+height:1050px;
+backdrop-filter:blur(20px);
+background-color:transparent;
+margin-left:380px;
+margin-bottom:10px;
+}
+#a{
+    width:80%;
+    height:5%;
+    border:none;
+    outline:none;
+    border-radius:40px;
+}
+#b{
+    width:80%;
+    height:5%;
+    border:none;
+    outline:none;
+    border-radius:40px;
+}
+#f{
+    width:80%;
+    height:5%;
+    border:none;
+    outline:none;
+    border-radius:40px;
+}
+#g{
+    width:80%;
+    height:5%;
+    border:none;
+    outline:none;
+    border-radius:40px;
+}
+#h{
+    width:80%;
+    height:5%;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    font-size:20px;
+}
+h5{
+    font-size:20px;
+    text-transform:uppercase;
+}
+select{
+    height:5%;
+    width:60%;
+    border:none;
+    outline:none;
+}
+option{
+    font-size:15px;
+}
+

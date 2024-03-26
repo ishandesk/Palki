@@ -1,0 +1,23 @@
+body{
+    background-image:url("wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-size:cover;
+}
+div{
+    border:2px solid gray;
+    border-radius:10%;
+    background-color:transparent;
+    backdrop-filter:blur(20px);
+    width:350px;
+    height:320px;
+    margin-top:120px;
+    margin-left:420px;
+    text-align:center;
+    color:white;
+}
+input{
+    width:80%;
+    height:7%;
+    border:none;
+    outline:none;
+    border-radius:20px;
+}

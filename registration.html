@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="final.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+<div id="container">
+    <div id="image"><img src="palkii.jpg" alt="Palki" height="100"></div>
+    <div id="text">Palki</div>
+</div>
+    </header>
+    <main>
+        <h2><i>Hello user welcome to our website palki here you can look for clothing, repairs,art etc........</i></h2>
+           <form action="index.php" method="post">
+        <div id="area"><h1>Registration</h1>
+                <h5> NAME:</h5>
+                <label for="a">
+                <input type="text" placeholder="name" name="name" id="a">
+            </label>
+                <br>
+                <h5> USERNAME:</h5>
+                <label for="b"><input type="text" placeholder="username" name="username" id="b"></label>
+                <i class="fa-regular fa-user"></i>
+                <br>
+                <h5>GENDER:</h5>
+                <label for="c">
+                    <input type="radio" value="Male" name="gender" id="c">Male
+                </label>
+                <i class="fa-solid fa-mars"></i>
+                <label for="d">
+                    <input type="radio" value="Female" name="gender" id="d">Female
+                </label>
+                <i class="fa-solid fa-venus"></i>
+                <label for="e">
+                    <input type="radio" value="others" name="gender" id="e">Others
+                </label>
+                <i class="fa-solid fa-transgender"></i>
+                <br>
+                <br>
+                <h5>Field of Interest:</h5>
+                <select name="fieldofinterest" >
+                 <option value="CLothing">Clothing</option>
+                 <option value="Art">Art</option>
+                 <option value="Accessories">Accesories</option>
+                 <option value="Food">Food</option>
+                 <option value="Repairing">Repairing</option>
+                </select>
+                <br>
+                <h5>CONTACT NO:</h5><label for="f">
+                <input type="number" placeholder="contact no." name="phone" id="f">
+            </label>
+                <i class="fa-solid fa-phone"></i>
+                <br>
+                <h5>PASSWORD:</h5>
+                <label for="g">
+                <input type="password" placeholder="password" name="pass" id="g">
+            </label>
+                <i class="fa-solid fa-lock"></i>
+                <br>
+                <br>
+                <label for="h">
+                <input type="submit" value="Register" id="h"></label>
+            </form>
+            <br>
+            <br>
+            </div>
+    </main>
+    <footer> 
+    </footer>
+</body>
+</html>

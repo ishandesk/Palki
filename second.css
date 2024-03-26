@@ -1,0 +1,54 @@
+#start{
+    text-align:left;
+    height:120px;
+    color:black;
+    font-size:40px;
+}
+#head{
+    margin-left:0px;
+}
+#down{
+    background-color:black;
+    height:50px;
+    color:white;
+}
+a{
+    color:white;
+    font-size:30px;
+}
+#content{
+    text-align:center;
+    border:2px solid black;
+    border-radius:10%;
+    width:700px;
+    margin-top:30px;
+    margin-left:250px;
+    background-image:url("ppp.jpg");
+    background-size:cover;
+    opacity:0.75;
+    color:white;
+    font-size:20px;
+}
+select{
+    margin-top:40px;
+    width:30%;
+    height:100%;
+    border:none;
+    outline:none;
+
+}
+option{
+    font-size:15px;
+}
+input{
+    background-color:blue;
+    color:yellow;
+    margin-bottom:15px;
+    font-size:20px;
+}
+main{
+   background-color:aquamarine;
+
+
+}
+
